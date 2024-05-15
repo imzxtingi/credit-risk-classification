@@ -7,7 +7,7 @@ The data was split into training and testing sets, then a logistic regression mo
 
 ## Results
 
-![Screenshot 2024-05-15 163325](https://github.com/imzxtingi/credit-risk-classification/assets/150073701/be050b21-1937-48cd-8861-a51056ed6873)
+![Screenshot 2024-05-15 163325](https://github.com/imzxtingi/credit-risk-classification/assets/150073701/206c2884-4b9c-47dd-b402-220498b20fb9)
 
 * Machine Learning Model 1: Logistic Regression
     * The healthy loans `0` had 100% precision, recall, and f1-score.  This shows that the model accurately predicted the outcome for healthy loans 100% of the time.
