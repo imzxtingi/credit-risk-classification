@@ -6,6 +6,9 @@ The purpose of this analysis is to create a logistic regression model that would
 The data was split into training and testing sets, then a logistic regression model was fit on the training data.  The predictions were made on the fitted model with test data and a confusion matrix and classification report was created to assess the reliability of the model. 
 
 ## Results
+
+![Screenshot 2024-05-15 163325](https://github.com/imzxtingi/credit-risk-classification/assets/150073701/be050b21-1937-48cd-8861-a51056ed6873)
+
 * Machine Learning Model 1: Logistic Regression
     * The healthy loans `0` had 100% precision, recall, and f1-score.  This shows that the model accurately predicted the outcome for healthy loans 100% of the time.
     * The high-risk loans `1` had 87% precision, 89% recall, and 88% f1-score.  Precision measures how many positive predictions are true positives.  Recall measures how many cases of positives were correctly predicted.  The f1-score is a weighted average of the precision and recall.  The model is not as accurate for high-risk loans as it was for healthy ones.  It is accurately predicting around 88% of high-risk loans.
